@@ -57,13 +57,13 @@ class Auto {
 // Prueba
 // Crea la instancia de la clase
 var auto = Auto()
-auto.velocidad
+
+// Imprime valor inicial
+print("\(auto.velocidad.rawValue), \(auto.velocidad)\n")
 
 // Iteración
-
-/*
  for i in 1...20 {
     var resultado = auto.cambioDeVelocidad()
-    print(resultado)
+    print("\(resultado.actual), \(resultado.velocidadEnCadena)\n")
 }
-*/
+
